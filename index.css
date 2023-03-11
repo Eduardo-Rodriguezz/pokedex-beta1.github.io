@@ -1,0 +1,62 @@
+
+.container {
+    background: #dd3e54;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: 'Anton', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Tilt Warp', cursive;
+
+    position: relative;
+    color: #ceff5b;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 4px 4px 5px rgb(111, 111, 221);
+    border: 1px solid black;
+    display: flex;
+    align-items: baseline;
+    height: 455px;
+    width: 350px;
+}
+
+#pokedex, img{
+    text-align: center;
+    height: 120px;
+}
+
+h1, label, input, button {
+    text-align: center;
+    height: 38px;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#btn-search {
+    position: absolute;
+    top: 89%;
+    left: 40%;
+    width: 75px;
+}
+
+#btn-info {
+    position: absolute;
+    top: 89%;
+    left: 75%;
+    width: 75px;
+}
+
+#btn-delete {
+    position: absolute;
+    top: 89%;
+    left: 3%;
+    width: 82px;
+}
+
+#btn-delete, #btn-info, #btn-search {
+    box-shadow: 2px, 2px;
+}
